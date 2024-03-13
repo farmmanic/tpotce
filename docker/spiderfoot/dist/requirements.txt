@@ -9,3 +9,6 @@ python-docx>=0.8.11,<0.9
 python-pptx>=0.6.21,<0.7
 publicsuffixlist>=0.7.9,<0.8
 openpyxl>=3.0.9,<4
+dnspython>=2.6.1 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
